@@ -1,0 +1,3 @@
+author = catmaster450
+version = 0.1
+displayName = Majicus
