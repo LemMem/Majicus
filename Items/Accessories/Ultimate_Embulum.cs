@@ -27,8 +27,8 @@ namespace Majicus.Items.Accessories
 			recipe.AddIngredient(mod, "Damage_Embulum");
             recipe.AddIngredient(mod, "Defence_Embulum");
             recipe.AddIngredient(mod, "Healing_Emculum");
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.SetResult(this);
+            recipe.AddTile(mod, "MagicTable");
+            recipe.SetResult(this);
 			recipe.AddRecipe();
         }
         public override void UpdateAccessory(Player player, bool hideVisual)

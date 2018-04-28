@@ -26,8 +26,8 @@ namespace Majicus.Items.Accessories
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(mod, "magic_core", 4);
             recipe.AddIngredient(ItemID.Gel, 10);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.SetResult(this);
+            recipe.AddTile(mod, "MagicTable");
+            recipe.SetResult(this);
 			recipe.AddRecipe();
         }
         public override void UpdateAccessory(Player player, bool hideVisual)

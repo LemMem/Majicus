@@ -26,7 +26,7 @@ namespace Majicus.Items.Accessories
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(mod, "magic_core", 4);
             recipe.AddIngredient(ItemID.StoneBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddTile(mod, "MagicTable");
 			recipe.SetResult(this);
 			recipe.AddRecipe();
         }
