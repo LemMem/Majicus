@@ -8,7 +8,7 @@ namespace Majicus.Items.Accessories
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Defence Embulum");
+			DisplayName.SetDefault("Defence Emblem");
 			Tooltip.SetDefault(" 2 more Defence");
 		}
 		public override void SetDefaults()

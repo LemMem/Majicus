@@ -40,6 +40,7 @@
     <Compile Include="Items\Accessories\Ultimate_Embulum.cs" />
     <Compile Include="Items\Materials\magic_core.cs" />
     <Compile Include="Items\Tiles\MagicTableItem.cs" />
+    <Compile Include="Items\Weapons\EmblumSword.cs" />
     <Compile Include="Tiles\MagicTable.cs" />
     <Compile Include="Majicus.cs" />
   </ItemGroup>

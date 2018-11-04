@@ -8,7 +8,7 @@ namespace Majicus.Items.Accessories
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Ultimate Embulum");
+			DisplayName.SetDefault("Ultimate Emblem");
 			Tooltip.SetDefault("Lots of power! 2 more defence, 2% more Healing, 0.2% more Damage");
 		}
 		public override void SetDefaults()

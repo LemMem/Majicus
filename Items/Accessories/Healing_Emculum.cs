@@ -8,7 +8,7 @@ namespace Majicus.Items.Accessories
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Healing Embulum");
+			DisplayName.SetDefault("Healing Emblem");
 			Tooltip.SetDefault(" 2% more Healing");
 		}
 		public override void SetDefaults()

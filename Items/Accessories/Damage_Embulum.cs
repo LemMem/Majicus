@@ -8,7 +8,7 @@ namespace Majicus.Items.Accessories
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Damage Embulum");
+			DisplayName.SetDefault("Damage Emblem");
 			Tooltip.SetDefault(" 0.2% more Damage");
 		}
 		public override void SetDefaults()
